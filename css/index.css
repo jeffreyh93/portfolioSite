@@ -1,0 +1,82 @@
+body {
+    letter-spacing: 0.1em;
+    background-color: black;
+}
+
+/**beginning of navbar css*/
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.25em;
+}
+
+.navbar {
+    background-color: rgb(12, 12, 12);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: teal !important;
+}
+
+.active > .nav-link {
+    color: teal !important;
+}
+
+/**beginning of content css*/
+.row {
+    margin: 0px !important;
+}
+
+#pageContent {
+    padding-top: 150px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    color: white;
+    overflow: hidden;
+    background-color: black;
+}
+
+/**beginning of left column css*/
+#introduction {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-size: 1.5em;
+}
+
+#profession {
+    font-size: 2.25em;
+}
+
+#exp {
+    color: teal;
+}
+
+#exp:hover {
+    text-decoration: none;
+}
+
+/**beginning of right column css*/
+img {
+    width: 100%;
+    height: auto;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
