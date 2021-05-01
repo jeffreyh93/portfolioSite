@@ -1,0 +1,42 @@
+body {
+    letter-spacing: 0.1em;
+    background-color: black;
+}
+
+/**beginning of navbar css*/
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.25em;
+}
+
+.navbar {
+    background-color: rgb(12, 12, 12);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: teal !important;
+}
+
+.active > .nav-link {
+    color: teal !important;
+}
+
+.row {
+    margin: 0px !important;
+}
+#pageContent {
+    padding-top: 150px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    color: white;
+    overflow: hidden;
+    background-color: black;
+}
