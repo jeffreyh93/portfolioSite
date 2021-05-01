@@ -37,6 +37,12 @@ body {
 }
 
 /**beginning of content css*/
+#nextBtn {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
 .timeline-row {
     opacity: 0;
 }
