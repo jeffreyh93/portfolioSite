@@ -40,3 +40,12 @@ body {
     overflow: hidden;
     background-color: black;
 }
+
+h3 {
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    height: 35px;
+}

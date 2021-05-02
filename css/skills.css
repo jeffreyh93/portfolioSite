@@ -31,12 +31,73 @@ body {
 .row {
     margin: 0px !important;
 }
+
 #pageContent {
-    padding-top: 150px;
+    padding-top: 100px;
     width: 100%;
     height: 100%;
-    position: fixed;
     color: white;
     overflow: hidden;
     background-color: black;
+}
+.skill-item {
+    opacity: 0;
+}
+.listItems {
+    text-align: left;
+}
+
+#pageContent > .row, #pageContent > .row > .row {
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    width: 100%;
+}
+
+.title > a {
+    color: teal;
+}
+
+.title > a:hover {
+    text-decoration: none;
+    color: teal;
+}
+
+h1.title {
+    padding-bottom: 25px;
+}
+
+h2.title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#personalProjects {
+    width: 100%;
+}
+
+#voteImg, #tcpImg {
+    border: 1px solid rgba(0,128,128,1);
+}
+
+#voteImg {
+    height: auto;
+    width: 100%;
+}
+
+li {
+    padding: 5px;
+}
+
+#programmingLanguages {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+#languages, #tools {
+    border: 1px dashed rgba(0,128,128,1);
+    border-radius: 15%;
+    padding: 10px;
 }
